@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<FlyoutPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppHamburguerFilme.AppFlyoutPage"
+             FlyoutLayoutBehavior="Popover
+            ">
+
+    <!-- SEÇÃO FLYOUT: Menu Lateral -->
+    <FlyoutPage.Flyout>
+        <ContentPage Title="Menu" BackgroundColor="Black">
+            <StackLayout Spacing="10">
+                <Label Text="Menu" FontSize="24" HorizontalOptions="Center" Margin="0, 20, 0, 20" TextColor="White" />
+                <Button Text="Memento"
+                        Clicked="mementoClicked"
+                        WidthRequest="200" />
+                <Button Text="Alien"
+                        Clicked="alienClicked"
+                        WidthRequest="200" />
+                <Button Text="Duro de Matar"
+                        Clicked="duroClicked"
+                        WidthRequest="200" />
+                <Button Text="Sociedade dos Poetas Mortos"
+                        Clicked="poetasClicked"
+                        WidthRequest="200" />
+                
+            </StackLayout>
+        </ContentPage>
+    </FlyoutPage.Flyout>
+
+</FlyoutPage>
