@@ -2,11 +2,13 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppHamburguerFilme.Alien"
-             Title="Alien">
+             Title="Alien"
+              BackgroundColor="#121212">
     <ScrollView>
         <VerticalStackLayout
 Padding="30,0"
-Spacing="25">
+Spacing="25"
+            Margin="0,0,0,40">
 
             <Label
     Text="Alien"
@@ -17,15 +19,16 @@ Spacing="25">
    TextColor="White"
   />
 
-            <Image Source="absolute_cinema.webp"
+            <Image Source="alien.jpg"
        HorizontalOptions="Center"
-       HeightRequest="200"
+       HeightRequest="300"
      />
 
             <Label
-    Text="texto explicando"
-    FontSize="30"
-    HorizontalOptions="Center"
+                Text="Durante seu retorno à Terra, a nave comercial Nostromo intercepta um sinal de socorro vindo de um planeta distante. Quando uma equipe de três tripulantes descobre uma câmara contendo milhares de ovos no planeta, uma criatura dentro de um dos ovos ataca um dos exploradores. Toda a tripulação desconhece o pesadelo iminente que se abaterá sobre eles quando o parasita alienígena implantado em seu infeliz hospedeiro eclodir."
+                 FontSize="18"
+                HorizontalTextAlignment="Justify"
+                HorizontalOptions="Center"
                    TextColor="White"
 />
 

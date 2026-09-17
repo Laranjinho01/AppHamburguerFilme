@@ -31,4 +31,10 @@ public partial class AppFlyoutPage : FlyoutPage
         Detail = new NavigationPage(new Sociedade());
         IsPresented = false;
     }
+
+    private void menuClicked(object sender, EventArgs e)
+    {
+        Detail = new NavigationPage(new MainPage());
+        IsPresented = false;
+    }
 }

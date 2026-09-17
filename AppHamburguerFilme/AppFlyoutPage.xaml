@@ -7,9 +7,12 @@
 
     <!-- SEÇÃO FLYOUT: Menu Lateral -->
     <FlyoutPage.Flyout>
-        <ContentPage Title="Menu" BackgroundColor="Black">
-            <StackLayout Spacing="10">
-                <Label Text="Menu" FontSize="24" HorizontalOptions="Center" Margin="0, 20, 0, 20" TextColor="White" />
+        <ContentPage Title="Menu" BackgroundColor="Black" >
+            <StackLayout Spacing="10" Margin="0,30,0,0">
+                <Button Text="Menu"
+                        Clicked="menuClicked"
+                        WidthRequest="200"
+                      />
                 <Button Text="Memento"
                         Clicked="mementoClicked"
                         WidthRequest="200" />
@@ -19,7 +22,7 @@
                 <Button Text="Duro de Matar"
                         Clicked="duroClicked"
                         WidthRequest="200" />
-                <Button Text="Sociedade dos Poetas Mortos"
+                <Button Text="Sociedade dos Poetas"
                         Clicked="poetasClicked"
                         WidthRequest="200" />
                 

@@ -2,32 +2,33 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppHamburguerFilme.Memento"
-             Title="Memento">
+             Title="Memento"
+              BackgroundColor="#121212">
     <ScrollView>
         <VerticalStackLayout
-  Padding="30,0"
-  Spacing="25">
+            Padding="30,0"
+            Spacing="25"
+            Margin="0,0,0,40">
 
-            <Label
-      Text="Memento"
-      FontSize="40"
-      FontAttributes="Bold"
-      HorizontalOptions="Center"
-      Margin="0,20,0,10"
-     TextColor="White"
-    />
+        <Label
+            Text="Memento"
+            FontSize="40"
+            FontAttributes="Bold"
+            HorizontalOptions="Center"
+            Margin="0,20,0,10"
+            TextColor="White" />
 
-            <Image Source="absolute_cinema.webp"
-         HorizontalOptions="Center"
-         HeightRequest="200"
-       />
+        <Image 
+            Source="memento.jpg"
+            HorizontalOptions="Center"
+            HeightRequest="300"/>
 
-            <Label
-      Text="texto explicando"
-      FontSize="30"
-      HorizontalOptions="Center"
-                     TextColor="White"
-  />
+        <Label
+            Text="Leonard Shelby está em busca do homem que assassinou sua esposa. A dificuldade em localizar o assassino, no entanto, é agravada pelo fato de ele sofrer de uma forma rara e incurável de perda de memória de curto prazo. Embora consiga se lembrar de detalhes de sua vida antes do acidente, Leonard não consegue se lembrar do que aconteceu quinze minutos atrás, para onde está indo ou por quê."
+            FontSize="18"
+            HorizontalTextAlignment="Justify"
+            HorizontalOptions="Center"
+            TextColor="White"/>
 
             
         </VerticalStackLayout>

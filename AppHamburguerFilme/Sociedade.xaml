@@ -2,11 +2,13 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppHamburguerFilme.Sociedade"
-             Title="Sociedade">
+             Title="Sociedade dos Poetas Mortos"
+              BackgroundColor="#121212">
     <ScrollView>
         <VerticalStackLayout
 Padding="30,0"
-Spacing="25">
+Spacing="25"
+            Margin="0,0,0,40">
 
             <Label
     Text="Sociedade dos Poetas Mortos"
@@ -17,7 +19,7 @@ Spacing="25">
    TextColor="White"
   />
 
-            <Image Source="absolute_cinema.webp"
+            <Image Source="sociedade.jpg"
        HorizontalOptions="Center"
        HeightRequest="200"
      />
