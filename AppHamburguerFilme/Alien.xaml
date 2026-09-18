@@ -6,31 +6,29 @@
               BackgroundColor="#121212">
     <ScrollView>
         <VerticalStackLayout
-Padding="30,0"
-Spacing="25"
+            Padding="30,0"
+            Spacing="25"
             Margin="0,0,0,40">
 
-            <Label
-    Text="Alien"
-    FontSize="40"
-    FontAttributes="Bold"
-    HorizontalOptions="Center"
-    Margin="0,20,0,10"
-   TextColor="White"
-  />
+         <Label
+            Text="Alien"
+            FontSize="40"
+            FontAttributes="Bold"
+            HorizontalOptions="Center"
+            HorizontalTextAlignment="Center"
+            Margin="0,20,0,10"
+            TextColor="White"/>
 
-            <Image Source="alien.jpg"
-       HorizontalOptions="Center"
-       HeightRequest="300"
-     />
+        <Image Source="alien.jpg"
+            HorizontalOptions="Center"
+            HeightRequest="300"/>
 
-            <Label
-                Text="Durante seu retorno à Terra, a nave comercial Nostromo intercepta um sinal de socorro vindo de um planeta distante. Quando uma equipe de três tripulantes descobre uma câmara contendo milhares de ovos no planeta, uma criatura dentro de um dos ovos ataca um dos exploradores. Toda a tripulação desconhece o pesadelo iminente que se abaterá sobre eles quando o parasita alienígena implantado em seu infeliz hospedeiro eclodir."
-                 FontSize="18"
-                HorizontalTextAlignment="Justify"
-                HorizontalOptions="Center"
-                   TextColor="White"
-/>
+        <Label
+            Text="Durante seu retorno à Terra, a nave comercial Nostromo intercepta um sinal de socorro vindo de um planeta distante. Quando uma equipe de três tripulantes descobre uma câmara contendo milhares de ovos no planeta, uma criatura dentro de um dos ovos ataca um dos exploradores. Toda a tripulação desconhece o pesadelo iminente que se abaterá sobre eles quando o parasita alienígena implantado em seu infeliz hospedeiro eclodir."
+            FontSize="18"
+            HorizontalTextAlignment="Justify"
+            HorizontalOptions="Center"
+            TextColor="White"/>
 
 
         </VerticalStackLayout>

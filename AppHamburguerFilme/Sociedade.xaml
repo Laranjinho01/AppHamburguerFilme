@@ -6,30 +6,29 @@
               BackgroundColor="#121212">
     <ScrollView>
         <VerticalStackLayout
-Padding="30,0"
-Spacing="25"
+            Padding="30,0"
+            Spacing="25"
             Margin="0,0,0,40">
 
-            <Label
-    Text="Sociedade dos Poetas Mortos"
-    FontSize="40"
-    FontAttributes="Bold"
-    HorizontalOptions="Center"
-    Margin="0,20,0,10"
-   TextColor="White"
-  />
+        <Label
+            Text="Sociedade dos Poetas Mortos"
+            FontSize="40"
+            FontAttributes="Bold"
+            HorizontalTextAlignment="Center"
+            HorizontalOptions="Center"
+            Margin="0,20,0,10"
+            TextColor="White"/>
 
-            <Image Source="sociedade.jpg"
-       HorizontalOptions="Center"
-       HeightRequest="200"
-     />
+        <Image Source="sociedade.jpg"
+            HorizontalOptions="Center"
+            HeightRequest="300"/>
 
-            <Label
-    Text="texto explicando"
-    FontSize="30"
-    HorizontalOptions="Center"
-                   TextColor="White"
-/>
+        <Label
+            Text="Em um internato de elite e estilo tradicional na Nova Inglaterra, um professor de inglês apaixonado inspira seus alunos a se rebelarem contra as convenções e a aproveitarem o potencial de cada dia, despertando o desprezo do diretor rigoroso."
+            FontSize="18"
+            HorizontalTextAlignment="Justify"
+            HorizontalOptions="Center"
+            TextColor="White"/>
 
 
         </VerticalStackLayout>

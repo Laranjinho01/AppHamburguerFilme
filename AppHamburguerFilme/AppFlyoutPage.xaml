@@ -2,8 +2,7 @@
 <FlyoutPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppHamburguerFilme.AppFlyoutPage"
-             FlyoutLayoutBehavior="Popover
-            ">
+             FlyoutLayoutBehavior="Popover">
 
     <!-- SEÇÃO FLYOUT: Menu Lateral -->
     <FlyoutPage.Flyout>
@@ -12,19 +11,25 @@
                 <Button Text="Menu"
                         Clicked="menuClicked"
                         WidthRequest="200"
-                      />
+                        BackgroundColor="#1c7949"/>
                 <Button Text="Memento"
                         Clicked="mementoClicked"
-                        WidthRequest="200" />
+                        WidthRequest="200" 
+                        BackgroundColor="#1c7949"/>
                 <Button Text="Alien"
                         Clicked="alienClicked"
-                        WidthRequest="200" />
+                        WidthRequest="200"
+                        BackgroundColor="#1c7949"/>
                 <Button Text="Duro de Matar"
                         Clicked="duroClicked"
-                        WidthRequest="200" />
+                        WidthRequest="200"
+                        BackgroundColor="#E0E0E0"
+                        TextColor="#121212"/>
                 <Button Text="Sociedade dos Poetas"
                         Clicked="poetasClicked"
-                        WidthRequest="200" />
+                        WidthRequest="200"
+                        BackgroundColor="#DC143C"
+                        TextColor="#121212"/>
                 
             </StackLayout>
         </ContentPage>

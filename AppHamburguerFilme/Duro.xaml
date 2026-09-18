@@ -6,30 +6,29 @@
               BackgroundColor="#121212">
     <ScrollView>
         <VerticalStackLayout
-Padding="30,0"
-Spacing="25"
+            Padding="30,0"
+            Spacing="25"
             Margin="0,0,0,40">
 
-            <Label
-    Text="Duro de Matar"
-    FontSize="40"
-    FontAttributes="Bold"
-    HorizontalOptions="Center"
-    Margin="0,20,0,10"
-   TextColor="White"
-  />
+        <Label
+            Text="Duro de Matar"
+            FontSize="40"
+            FontAttributes="Bold"
+            HorizontalTextAlignment="Center"
+            HorizontalOptions="Center"
+            Margin="0,20,0,10"
+            TextColor="White"/>
 
-            <Image Source="duro.jpg"
-       HorizontalOptions="Center"
-       HeightRequest="200"
-     />
+        <Image Source="duro.jpg"
+            HorizontalOptions="Center"
+            HeightRequest="300"/>
 
-            <Label
-    Text="texto explicando"
-    FontSize="30"
-    HorizontalOptions="Center"
-                   TextColor="White"
-/>
+        <Label
+            Text="O plano de John McClane, policial de Nova York, de se reconciliar com a esposa de quem está separado sofre uma reviravolta drástica quando, minutos após sua chegada à festa de Natal da empresa dela, todo o prédio é tomado por um grupo de terroristas. Com pouca ajuda da polícia de Los Angeles, McClane — conhecido por seu jeito sarcástico — decide resgatar os reféns e derrotar os criminosos por conta própria."
+            FontSize="18"
+            HorizontalTextAlignment="Justify"
+            HorizontalOptions="Center"
+            TextColor="White"/>
 
 
         </VerticalStackLayout>
