@@ -15,8 +15,9 @@
             FontAttributes="Bold"
             HorizontalOptions="Center"
             HorizontalTextAlignment="Center"
-            Margin="0,20,0,10"
-            TextColor="White"/>
+            Margin="0,30,0,0"
+            TextColor="White" 
+            FontFamily="Hiddencinema"/>
 
         <Image Source="absolute_cinema.webp"
             HorizontalOptions="Center"
@@ -26,7 +27,9 @@
             Text="Seja bem-vindo(a)!"
             FontSize="30"
             HorizontalOptions="Center"
-            TextColor="White"/>
+            TextColor="White"
+            FontFamily="Hiddencinema"
+            Margin="0,10,0,0"/>
 
             <Label
             Text="Abra o menu lateral (gaveta) no canto superior esquerdo"
@@ -34,7 +37,8 @@
             HorizontalOptions="Center"
             HorizontalTextAlignment="Center"
             Margin="0,10,0,0"
-            TextColor="LightGrey"/>
+            TextColor="LightGrey"
+            FontFamily="Hiddencinema"/>
             
         </VerticalStackLayout>
     </ScrollView>
