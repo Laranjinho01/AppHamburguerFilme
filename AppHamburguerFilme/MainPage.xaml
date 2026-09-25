@@ -9,7 +9,7 @@
             Padding="30,0"
             Spacing="25">
 
-        <Label
+            <Label
             Text="Meus Filmes Favoritos"
             FontSize="40"
             FontAttributes="Bold"
@@ -18,8 +18,8 @@
             Margin="0,30,0,0"
             TextColor="White" 
             FontFamily="Hiddencinema"/>
-
-        <Image Source="absolute_cinema.webp"
+            
+            <Image Source="absolute_cinema.webp"
             HorizontalOptions="Center"
             HeightRequest="200"/>
 

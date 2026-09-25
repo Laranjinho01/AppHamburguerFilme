@@ -29,7 +29,8 @@
             FontSize="18"
             HorizontalTextAlignment="Justify"
             HorizontalOptions="Center"
-            TextColor="White"/>
+            TextColor="White"
+            FontFamily="dayrom"/>
 
 
         </VerticalStackLayout>

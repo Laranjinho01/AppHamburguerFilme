@@ -14,6 +14,7 @@ namespace AppHamburguerFilme
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
                     fonts.AddFont("Hiddencinema.ttf", "Hiddencinema");
+                    fonts.AddFont("DAYROM__.ttf", "dayrom");
                 });
 
 #if DEBUG

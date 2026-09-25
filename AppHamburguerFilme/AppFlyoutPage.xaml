@@ -11,24 +11,33 @@
                 <Button Text="Menu"
                         Clicked="menuClicked"
                         WidthRequest="200"
+                        FontFamily="dayrom"
+                        FontSize="18"
                         />
                 <Button Text="Memento"
                         Clicked="mementoClicked"
                         WidthRequest="200" 
+                        FontFamily="dayrom"
+                        FontSize="18"
                        />
                 <Button Text="Alien"
                         Clicked="alienClicked"
                         WidthRequest="200"
+                        FontFamily="dayrom"
+                        FontSize="18"
                         />
                 <Button Text="Duro de Matar"
                         Clicked="duroClicked"
                         WidthRequest="200"
+                        FontFamily="dayrom"
+                        FontSize="18"
                         
                        />
                 <Button Text="Sociedade dos Poetas"
                         Clicked="poetasClicked"
                         WidthRequest="200"
-                      
+                        FontFamily="dayrom"
+                        FontSize="18"
                         />
                 
             </StackLayout>
